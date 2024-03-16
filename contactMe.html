@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -28,7 +33,7 @@
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         color: rgb(216, 236, 253);
-        margin-top: 30%;
+        margin-top: 15%;
       }
       h2 {
         text-align: center;
@@ -79,17 +84,33 @@
     <div class="container">
       <h2>Contact Me</h2>
       <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4"></textarea><br />
 
-        <button type="submit">Submit</button>
+        <label for="reason">Reason for Contact:</label><br />
+        <select
+          id="reason"
+          name="reason"
+          style="background-color: #081b29; color: aliceblue"
+        >
+          <option value="general">I have a Job for you</option>
+          <option value="feedback">Feedback</option>
+          <option value="support">Question</option></select
+        ><br />
+
+        <input style="background-color: #00abf0" type="submit" value="Submit" />
       </form>
+    </div>
+    <div class="home-sci" style="margin-left: 25%">
+      <a href="#"><i class="bx bxl-facebook"></i></a>
+      <a href="#"><i class="bx bxl-twitter"></i></a>
+      <a href="#"><i class="bx bxl-linkedin"></i></a>
     </div>
   </body>
 </html>
