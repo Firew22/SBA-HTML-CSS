@@ -30,6 +30,11 @@ View details about my background, skills, and projects in the About Me and Proje
 Contact me using the contact form
 
 
-home page
+Home
+
+
+About Me  page
 
 ![image](https://github.com/Firew22/SBA-HTML-CSS/assets/70177830/e2af3b5d-5b0a-42b6-bdcc-3630c5ab813f)
+
+
