@@ -3,8 +3,14 @@
 Portfolio Website
 This is a simple portfolio website showcasing my skills, projects, and contact information.
 
+
+
 Description
 This portfolio website serves as an online resume and portfolio to showcase my skills, experience, and projects to potential employers or clients. It provides an overview of my background, projects I have worked on, and ways to contact me.
+
+
+
+
 
 Features
 About Me section: Provides a brief introduction and overview of my background, skills, and interests.
@@ -22,3 +28,8 @@ Usage
 Navigate through the different sections of the website using the navigation menu.
 View details about my background, skills, and projects in the About Me and Projects sections.
 Contact me using the contact form
+
+
+home page
+
+![image](https://github.com/Firew22/SBA-HTML-CSS/assets/70177830/e2af3b5d-5b0a-42b6-bdcc-3630c5ab813f)
